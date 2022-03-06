@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Canteen Food Ordering System</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="fa-bars-cross">
+            <img class="fa-bars" src="img/fa-bars.png" height="23px" alt="">
+            <img class="cross" src="img/cross.png" height="23px" alt="">
+        </div>
+        <div class="container-1 nav-go">
+            <div class="navigation-bar">
+                <nav>
+                    <div class="logo-text">
+                        <p>🍔Canteen</p>
+                    </div>
+                    <div class="food-item-reports">
+                    </div>
+
+                    <ul>
+                        <li><a id="food-item-report" href="#">Food item report</a></li>
+                        <li><a href="add-item.html">Add item</a></li>
+                        <li><a href="#">Add Sell</a></li>
+                        <li><a href="#">Sell report</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container-2">
+            <div class="top-bar">
+                
+            </div>
+            <div class="add-item">
+                <h1>Add New Product</h1>
+
+                <div class="product-table">
+                    <p id="product-management">Product Management</p>
+                    <br><br>
+                    <hr>
+                    <br>
+                    <p>Product Type</p>
+                    <select name="" id="food-type-select">
+                        <option value="">--Select your type--</option>
+                        <option value="veg">Veg</option>
+                        <option value="">Non-veg</option>
+                    </select>
+                    <br><br><br>
+                    <p>Food</p>
+                    <select name="" id="food-select">
+                        <option value="">--Select Food--</option>
+                        <option value="c-b" id="c-b" class="c-b">Chicken-Burger</option>
+                        <option value="s" id="s">Samosa</option>
+                        <option value="v-n" id="v-n">Veg Noodles</option>
+                        <option value="c-n" id="c-n">Chicken Noodles</option>
+                        <option value="v-m" id="v-m">Veg Manchurian</option>
+                        <option value="c-m" id="c-m">Chicken Manchurian</option>
+                    </select>
+
+                    <br><br><br>
+                    <p>Total Stock</p>
+                    <input type="number" id="stock">
+                    <br><br><br>
+                    <p>Price Per Item</p>
+                    <input type="text" name="" id="price-per-item">
+
+                    <br><br><br><br>
+                    <input type="submit" value="Save Your Details" id="save-detail">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
