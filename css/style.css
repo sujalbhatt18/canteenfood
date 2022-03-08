@@ -174,7 +174,7 @@ hr{
     text-align: center;
 }
 #price-per-item{
-    height: 32px;
+    height: 6vh;
     font-family: 'Roboto Mono', monospace;
     margin-left: 2.4rem;
     width: 10vw;
